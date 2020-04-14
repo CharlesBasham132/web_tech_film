@@ -1,0 +1,70 @@
+body {
+    background-color: #ffff;
+}
+
+h1 {
+    color: crimson;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: #96051f;
+    background-color: #8b9e36;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c02d2d;
+    min-width: 160px;
+    box-shadow: 0px 30px 16px 0px rgba(0,10,0,0.2);
+    z-index: 1;
+    /*the z-index places the content infront of any text or images on screen*/
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+#red_tree_wrap {
+    border: 6px;
+    padding: 10px;
+    box-shadow: 20px brown;
+    z-index: 3;
+  }
+
+#red_tree_img {
+    float: top;
+    max-width: 200px;
+    height: auto;
+    /*border-radius: 80%;*/
+  }
