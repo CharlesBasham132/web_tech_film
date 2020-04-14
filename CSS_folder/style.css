@@ -1,0 +1,41 @@
+
+/* TEST */
+.wrapper {
+    background-color: #00BFFF;
+}
+
+body{
+    color: purple;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+#navbar {
+    background-color: green;
+}
+#navbar ul {
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+#navbar li {
+    display: inline;
+}
+#navbar a {
+    color: red;
+    background-color: rosybrown;
+    text-decoration: overline;
+    font-size: 20px;
+    padding: 0px;
+    margin: 10px;
+    width: fit-content;
+    /*display: block;*/
+}
+#home_icon {
+    color: blue;
+}
+.button {
+    background-color: red;
+}
