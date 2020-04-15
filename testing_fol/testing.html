@@ -52,13 +52,24 @@
     </div>
     <div class="video_1">
         <video id="mechanical_monsters" 
-        autoplay controls muted
+        /*autoplay*/ controls muted
         width="320" height="240"
         src="../films_folder/mechanical_monsters_1941_512kb.mp4">
-        Your browser is gay
+        Your does not support video playback
         </video>
 
     </div>
+    
+    <p id="demo">js can change content</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+    <p id="yoyo">this should changeaaa</p>
+    <button type="button" onclick= 'document.getElementById("yoyo").innerHTML = "changed"'>click</button>
+
+    <p id="king123">this is a message</p>
+    <button onclick="bingo('blue');">blue</button>
+    <button onclick="bingo('red');">red</button>
 
 </body>
 </html>

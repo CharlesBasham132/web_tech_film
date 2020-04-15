@@ -17,3 +17,10 @@ function myFunction() {
       }
     }
   }
+
+
+  //this will change the color of some text
+  function bingo(aaaa) {
+    var elem = document.getElementById('king123')
+    elem.style.color = aaaa;  
+  }
